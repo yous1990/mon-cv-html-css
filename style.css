@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+}
+
+body{
+  overflow-y: scroll;
+}
+#entete{
+  position: static;
+  padding: 5px 25px 5px 35px;;
+	background-color: #eecfa1;
+	height: 5px;
+  weight: 100%
+}
+
+.left-menu{
+  float: left;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+#identity-foto > img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+#job{
+  font-family: cursive;
+  text-align: center;
+  float: left;
+  padding: 5px 25px 5px 30px;
+}
+#name{
+  font-family: sans-serif inherit;
+  margin-left: 35px;
+}
+img{
+  width: 40px;
+  height: 40px;
+}
+.container{
+  margin: 10px 5px 10px 10px;
+}
+.icon-menu{
+  margin-top: 60px;
+  margin-left: 70px;
+}
+.icon-menu>a :hover {
+  -ms-transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+.right-menu{
+  float:right;
+  width: 75%;
+}
+.introduction{
+  background: repeating-linear-gradient(
+  45deg,
+  #FFE4B5,
+  #FFE4B5 10px,
+  #FAFAD2 10px,
+  #FAFAD2 20px
+);
+border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;
+padding-right: 200px;
+margin-top: 35px;
+}
+.introduction > h1{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 60px;
+}
+.presentation{
+  margin-top: 15px;
+  margin-left: 35px;
+}
+.presentation > p {
+  font-family: arial;
+  font-weight: bold;
+  font-size: large;
+}
+.langages{
+margin-left: 35px;
+float: left;
+margin-top: 20px;
+}
+.outils{
+  float:right;
+  margin-top: 20px;
+margin-right:160px;
+}
+.presentation > ul{
+  margin-right: 20px;
+  margin-top: 15px;
+  text-align: justify;
+}
+li{
+  margin-top: 10px;
+}
+.langages > ul{
+  margin-top: -10px;
+}
+.outils > ul{
+    margin-top: -7px;
+}
